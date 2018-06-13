@@ -7,6 +7,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <RootNamespace>SnipInsight.Forms.GTK.Mac</RootNamespace>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>full</DebugType>
