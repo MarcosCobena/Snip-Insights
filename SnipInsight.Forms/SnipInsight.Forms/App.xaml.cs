@@ -7,6 +7,8 @@ namespace SnipInsight.Forms
 {
 	public partial class App : Application
 	{
+        public static readonly string Title = "Snip Insights";
+
 		public App ()
 		{
 			InitializeComponent();
