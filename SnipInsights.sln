@@ -12,11 +12,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnipInsight.Forms.UWP", "SnipInsight.Forms\SnipInsight.Forms.UWP\SnipInsight.Forms.UWP.csproj", "{21F876D0-CDE5-4096-82D3-3CF47EF540FD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnipInsight.Forms", "SnipInsight.Forms\SnipInsight.Forms\SnipInsight.Forms.csproj", "{92BD567F-D960-41B2-BE55-5EB056AA7B2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnipInsight.Forms", "SnipInsight.Forms\SnipInsight.Forms\SnipInsight.Forms.csproj", "{92BD567F-D960-41B2-BE55-5EB056AA7B2F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnipInsight.Forms.Mac", "SnipInsight.Forms.Mac\SnipInsight.Forms.Mac.csproj", "{ECC60494-7D02-4924-A87C-09C9F11638A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnipInsight.Forms.GTK", "SnipInsight.Forms.GTK\SnipInsight.Forms.GTK.csproj", "{DA18D861-A3AB-45D1-973E-C6C28A0E19D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnipInsight.Forms.GTK.Mac", "SnipInsight.Forms.GTK.Mac\SnipInsight.Forms.GTK.Mac.csproj", "{64CC8953-DD2A-48DD-9E86-6D5DB341523A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +111,22 @@ Global
 		{DA18D861-A3AB-45D1-973E-C6C28A0E19D0}.Release|x64.Build.0 = Release|Any CPU
 		{DA18D861-A3AB-45D1-973E-C6C28A0E19D0}.Release|x86.ActiveCfg = Release|Any CPU
 		{DA18D861-A3AB-45D1-973E-C6C28A0E19D0}.Release|x86.Build.0 = Release|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Debug|ARM.Build.0 = Debug|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Debug|x64.Build.0 = Debug|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Debug|x86.Build.0 = Debug|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Release|ARM.Build.0 = Release|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Release|x64.ActiveCfg = Release|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Release|x64.Build.0 = Release|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Release|x86.ActiveCfg = Release|Any CPU
+		{64CC8953-DD2A-48DD-9E86-6D5DB341523A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
