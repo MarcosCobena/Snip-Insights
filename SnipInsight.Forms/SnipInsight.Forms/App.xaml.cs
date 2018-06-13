@@ -1,11 +1,11 @@
-using System;
+using SnipInsight.Forms.Features.Home;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-[assembly: XamlCompilation (XamlCompilationOptions.Compile)]
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace SnipInsight.Forms
 {
-	public partial class App : Application
+    public partial class App : Application
 	{
         public static readonly string Title = "Snip Insights";
 
@@ -13,7 +13,7 @@ namespace SnipInsight.Forms
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+            MainPage = new HomePage();
 		}
 
 		protected override void OnStart ()
