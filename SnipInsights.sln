@@ -12,15 +12,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnipInsight.Forms.UWP", "SnipInsight.Forms\SnipInsight.Forms.UWP\SnipInsight.Forms.UWP.csproj", "{21F876D0-CDE5-4096-82D3-3CF47EF540FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnipInsight.Forms", "SnipInsight.Forms\SnipInsight.Forms\SnipInsight.Forms.csproj", "{92BD567F-D960-41B2-BE55-5EB056AA7B2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnipInsight.Forms", "SnipInsight.Forms\SnipInsight.Forms\SnipInsight.Forms.csproj", "{92BD567F-D960-41B2-BE55-5EB056AA7B2F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnipInsight.Forms.Mac", "SnipInsight.Forms.Mac\SnipInsight.Forms.Mac.csproj", "{ECC60494-7D02-4924-A87C-09C9F11638A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnipInsight.Forms.GTK", "SnipInsight.Forms.GTK\SnipInsight.Forms.GTK.csproj", "{DA18D861-A3AB-45D1-973E-C6C28A0E19D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnipInsight.Forms.GTK.Windows", "SnipInsight.Forms.GTK.Windows\SnipInsight.Forms.GTK.Windows.csproj", "{DA18D861-A3AB-45D1-973E-C6C28A0E19D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnipInsight.Forms.GTK.Mac", "SnipInsight.Forms.GTK.Mac\SnipInsight.Forms.GTK.Mac.csproj", "{64CC8953-DD2A-48DD-9E86-6D5DB341523A}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SnipInsight.Forms.GTK", "SnipInsight.Forms.GTK\SnipInsight.Forms.GTK.shproj", "{987D4BAB-A18D-49D0-940A-497C205E8BE4}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SnipInsight.Forms.GTK\SnipInsight.Forms.GTK.projitems*{64cc8953-dd2a-48dd-9e86-6d5db341523a}*SharedItemsImports = 4
+		SnipInsight.Forms.GTK\SnipInsight.Forms.GTK.projitems*{987d4bab-a18d-49d0-940a-497c205e8be4}*SharedItemsImports = 13
+		SnipInsight.Forms.GTK\SnipInsight.Forms.GTK.projitems*{da18d861-a3ab-45d1-973e-c6c28a0e19d0}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
