@@ -2,9 +2,9 @@
 
 namespace SnipInsight.Forms.Mac
 {
-    static class MainClass
+    public static class MainClass
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             NSApplication.Init();
             NSApplication.SharedApplication.Delegate = new AppDelegate();

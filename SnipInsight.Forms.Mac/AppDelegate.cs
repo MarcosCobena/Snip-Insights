@@ -8,17 +8,16 @@ namespace SnipInsight.Forms.Mac
     [Register("AppDelegate")]
     public class AppDelegate : FormsApplicationDelegate
     {
-        NSWindow _window;
-
-        public override NSWindow MainWindow => _window;
+        private NSWindow _window;
 
         public AppDelegate()
         {
-            var style = NSWindowStyle.Closable | NSWindowStyle.Resizable | NSWindowStyle.Titled;
-
             var rect = new CGRect(200, 1000, 1024, 768);
+            var style = NSWindowStyle.Closable | NSWindowStyle.Resizable | NSWindowStyle.Titled;
             _window = new NSWindow(rect, style, NSBackingStore.Buffered, false);
         }
+
+        public override NSWindow MainWindow => _window;
 
         public override void DidFinishLaunching(NSNotification notification)
         {
